@@ -36,7 +36,7 @@ Gerencia uma lista de pessoas e oferece funcionalidades de análise e exibição
 - `listar_por_genero()`: Lista todas as pessoas de um determinado gênero.
 - `media_idade_por_genero()`: Calcula e exibe a média de idade de um gênero específico.
 
-![Resultado Esperado]('Captura de tela 2024-11-26 190326.png')
+![Resultado Esperado](Captura.png).
 
 
 
