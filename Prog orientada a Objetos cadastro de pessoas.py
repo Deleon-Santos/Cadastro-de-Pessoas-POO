@@ -22,8 +22,8 @@ class Cadastro:
             p.pessoa_info()
 
     def listar_por_genero(self, genero):
-        print()
-        print(f'\nPessoas do genero {genero}')
+    
+        print(f'\nPessoas do genero {genero}:')
 
         for p in self.lista:
             if p.genero.lower()==genero.lower():
@@ -41,14 +41,9 @@ class Cadastro:
         if contador > 0:
             media = total_idade / contador
             print(f"\nMédia de idade para o gênero {genero}: {media:.2f}")
+            print(f'\nTemos um total de {len(self.lista)} pessoas cadastras\n')
         else:
-            print(f"\nNenhuma pessoa do gênero {genero} cadastrada.")
-
-class Masculino:
-    pass
-
-class Fememimo:
-    pass
+            print(f"\nNenhuma pessoa do gênero {genero} cadastrada.\n")
 
 def main():
     cadastro = Cadastro()
